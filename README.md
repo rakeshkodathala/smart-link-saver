@@ -1,4 +1,8 @@
-# Smart Link Saver - Chrome Extension 🔖
+# Smart Link Saver
+
+<div align="center">
+  <img src="assets/banner.png" alt="Smart Link Saver Banner" width="100%">
+</div>
 
 A powerful Chrome extension for effortlessly saving and organizing your important URLs and search queries.
 
