@@ -6,7 +6,6 @@
 
 A powerful Chrome extension for effortlessly saving and organizing your important URLs and search queries.
 
-![Smart Link Saver Banner](icons/icon-128.png.png)
 
 ## 🌟 Features
 
@@ -92,7 +91,7 @@ git clone https://github.com/rakeshkodathala/smart-link-saver.git
 - No external servers used
 - No personal data collected
 - No analytics or tracking
-- [Full Privacy Policy](link_to_privacy_policy)
+- [Full Privacy Policy](https://rakeshkodathala.github.io/smart-link-saver/)
 
 ## 🤝 Contributing
 
