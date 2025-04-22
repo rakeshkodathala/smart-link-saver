@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Smart Link Saver</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="header-left">
+        <img src="icons/icon.png" alt="Smart Link Saver">
+        <h1>Smart Link Saver</h1>
+      </div>
+      <div class="theme-switch-wrapper">
+        <label class="theme-switch">
+          <input type="checkbox" id="themeToggle">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+    <div class="search-container">
+      <input type="text" class="search-input" id="searchInput" placeholder="Search links and queries...">
+    </div>
+    <div class="filter-container">
+      <button class="filter-button active" data-filter="all">All</button>
+      <button class="filter-button" data-filter="link">Links</button>
+      <button class="filter-button" data-filter="search">Searches</button>
+    </div>
+    <div class="saved-links" id="savedLinks">
+      <!-- Loading skeleton will be shown while loading -->
+      <div class="skeleton skeleton-item"></div>
+      <div class="skeleton skeleton-item"></div>
+      <div class="skeleton skeleton-item"></div>
+    </div>
+    <div class="actions">
+      <button id="clearAll" data-tooltip="Remove all saved links">Clear All</button>
+      <button id="exportLinks" data-tooltip="Export links to CSV file">Export All</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>
